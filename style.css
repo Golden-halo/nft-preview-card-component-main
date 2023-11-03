@@ -1,0 +1,104 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: hsl(217, 54%, 11%) ;
+    min-height: 100vh;
+}
+main{
+    width: 370px;
+    background-color: hsl(216, 50%, 16%);
+    margin-inline: auto;
+    margin-top: 20px;
+    align-items: center;
+    position: relative;
+    border-radius: 10px;
+}
+.box-image{
+     width: 350px;
+    height: 350px;
+    display: flex;
+    justify-content: center;
+    padding-left: 20px;
+    padding-top: 20px;
+
+}
+.box-image:hover{
+
+    cursor: pointer;
+}
+.text{
+    color: white;
+    padding-left: 20px;
+    padding-top: 30px;
+
+}
+.text:hover{
+    color: aqua;
+    cursor: pointer;
+}
+p{
+    color: white;
+    padding-left: 20px;  
+}
+.shape{
+    padding-left: 20px;  
+}
+.items{
+    display: flex;
+    padding-top: 20px;
+}
+.tire{
+    color:hsl(178, 100%, 50%)
+}
+.fire{
+    padding-top: 20px;
+}
+.icons{
+    display: flex;
+justify-content: space-between;
+
+}
+.curry{
+    display: flex;
+    padding-top: 20px;
+    padding-right: 20px;
+}
+ hr{   
+ background-color: hsl(0, 0%, 100%);
+}
+    
+.stuff{
+display: flex;
+justify-content: baseline;
+padding-bottom: 20px;
+}
+.more-stuff{
+width: 40px;
+height: 40px;
+}
+.tinz{
+    display: flex;
+    justify-content: baseline;
+}
+.image{
+    width: 40px;
+    height: 40px;
+}
+section{
+    display: flex;
+    justify-content: flex-start;
+}
+.dd{
+    display: flex;
+}
+section{
+    padding-left: 20px;
+    padding-bottom: 10px;
+}
+.smt:hover{
+color: aqua;
+cursor: pointer;
+}
